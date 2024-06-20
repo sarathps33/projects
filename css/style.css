@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.child{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    color: rgb(29, 211, 99);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+}
+p{
+    padding: 5% ;
+
+}
+h1{
+   top: 20%; 
+   right: 45%;
+   padding: 5%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.son{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 50%;
+  right: 20%;
+  border-radius: 100px;
+  border: solid rgb(255, 255, 255) 5px;
+  padding: 60px 20px;
+  text-decoration: underline;
+}
